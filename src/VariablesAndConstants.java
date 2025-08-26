@@ -1,6 +1,6 @@
 public class VariablesAndConstants {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         // Variables
         String name = "Juan";
         System.out.println(name);
@@ -19,6 +19,5 @@ public class VariablesAndConstants {
 
         var email = "Hola Mundo";
         System.out.println(email);
-
     }
 }
