@@ -84,6 +84,5 @@ public class ExercisesOperators {
     // 10. Combina operadores aritméticos, de comparación y lógicos.
     System.out.println("-------------- 10");
     System.out.println(((1 * 3 == 3 ) && (2 % 5 != 10)) && !((2 / 4) > 10));
-
   }
 }

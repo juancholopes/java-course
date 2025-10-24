@@ -39,5 +39,8 @@ public class BeginnerExercises {
         C = 10;
         System.out.println(C);
 
+        int B;
+        B = 10;
+
     }
 }
