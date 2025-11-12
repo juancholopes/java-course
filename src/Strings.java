@@ -25,8 +25,15 @@ public class Strings {
         // Obtener una subcadena
         System.out.println("NameHolaMundo".substring(2));
 
+        String name = "juan";
+
+        // Subcadena
+        System.out.println(name.substring(1, 4 ));
+
         // Obtener los byter en utf.16
         System.out.println("hola mundo".getBytes(StandardCharsets.UTF_16));
 
+        //Contains --> devulve true o false
+        System.out.println("Hola Java".contains("Hola"));
     }
 }

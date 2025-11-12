@@ -26,7 +26,5 @@ public class DataTypes {
 
         // Tipo de dato en tiempo de compilación
         System.out.println(myString.getClass().getSimpleName());
-
-
     }
 }
