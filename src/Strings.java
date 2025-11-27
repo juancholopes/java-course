@@ -35,5 +35,8 @@ public class Strings {
 
         //Contains --> devulve true o false
         System.out.println("Hola Java".contains("Hola"));
+
+        
+        System.out.println();
     }
 }
