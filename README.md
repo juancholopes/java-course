@@ -22,7 +22,7 @@ A course to dive into the fundamentals of Java, one of the most widely used and 
 - Constants and Variables
 - Primitive data types in Java
 
-3 Operators
+3 c02_operators.Operators
 
 - Arithmetic operators
 - Assignment operators
