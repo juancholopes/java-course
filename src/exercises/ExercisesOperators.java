@@ -42,7 +42,8 @@ public class ExercisesOperators {
     System.out.println(e);
     System.out.println(f);
 
-    // 3. Imprime 3 comparaciones verdaderas con diferentes operadores de comparación.
+    // 3. Imprime 3 comparaciones verdaderas con diferentes operadores de
+    // comparación.
     System.out.println("-------------- 3");
 
     System.out.println(6 > 4);
@@ -82,9 +83,8 @@ public class ExercisesOperators {
     System.out.println(g++);
     System.out.println(g);
 
-
     // 10. Combina operadores aritméticos, de comparación y lógicos.
     System.out.println("-------------- 10");
-    System.out.println(((1 * 3 == 3 ) && (2 % 5 != 10)) && !((2 / 4) > 10));
+    System.out.println(((1 * 3 == 3) && (2 % 5 != 10)) && !((2 / 4) > 10));
   }
 }
