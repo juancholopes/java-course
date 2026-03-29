@@ -1,7 +1,5 @@
 package c03_strings;
 
-import java.nio.charset.StandardCharsets;
-
 public class Strings {
     public static void main(String[] args) {
 
@@ -30,10 +28,10 @@ public class Strings {
         String name = "Juan";
 
         // Subcadena
-        System.out.println(name.substring(1, 4 ));
+        System.out.println(name.substring(1, 4));
 
         // Obtener los byter en utf.16
-        System.out.println("hola mundo".getBytes(StandardCharsets.UTF_16));
+        System.out.println("hola mundo".getBytes());
 
         //Contains --> devulve true o false
         System.out.println("Hola Java".contains("Hola"));
@@ -44,7 +42,7 @@ public class Strings {
 
         var a = "Juan";
         var b = "Juan";
-        var c = new String("Juan");
+        var c = "Juan";
 
 
         System.out.println(a == b);
@@ -59,7 +57,8 @@ public class Strings {
 
         // Format ==> para hacer interpolación es decir incluir valores en una cadena de texto
         var age = 20;
-        System.out.println(String.format("Hola mi nombre es %s y tengo %d", name, age));
+        System.out.printf("Hola mi nombre es %s y tengo %d%n", name, age);
+
 
     }
 }
