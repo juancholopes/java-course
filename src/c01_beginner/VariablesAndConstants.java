@@ -4,13 +4,13 @@ public class VariablesAndConstants {
 
   public static void main(String[] args) {
     // Variables
-    String name = "Juan";
-    System.out.println(name);
+    String Nombre = "Juan";
+    System.out.println(Nombre);
 
-    name = "Carlos";
-    System.out.println(name);
+    Nombre = "Carlos";
+    System.out.println(Nombre);
 
-    // name = 17; error no se puede cambiar el tipo de dato
+    // Nombre = 17; error no se puede cambiar el tipo de dato
 
     int age = 19;
     System.out.println(age);
